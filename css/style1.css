@@ -21,6 +21,23 @@ h2{
     font-size: 30px;
 }
 
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5{
+    color: gray;
+    text-align: center;
+}
+
+
+.background-img{
+    background-color: rgba( 0, 0, 0, 0.3);
+    height: 100%;
+    border-radius: 10px;
+}
+
 /* HEADER */
 
 header a img{
@@ -58,11 +75,6 @@ header a img{
     border-radius: 10px;
 }
 
-.background-img{
-     background-color: rgba( 0, 0, 0, 0.3);
-     height: 100%;
-     border-radius: 10px;
-}
 
 .section-img .background-img .testo-img{
     width: 50%;
@@ -83,45 +95,74 @@ header a img{
 
 .container-content{
     margin-top: 30px;
-    background-color: royalblue;
     padding-bottom: 20px;
 }
 
+/* CONTENT HIGH */
 .par-content{
-    color: #e6e4e4;
+    color: #8a8484;
     font-size: small;
 }
 
+/* CONTENT LEFT */
 .content-left{
     width: 20%;
-    height: 370px;
-    background-color: skyblue;
     margin-top: 20px;
     float: left;
 }
 
+.content-left .img-1{
+    width: 100%;
+    height: 160px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* CONTENT CENTER */
+
 .content-center{
     width: 56%;
-    height: 370px;
-    background-color: skyblue;
     margin-left: 2%;
     margin-top: 20px;
     float: left;
 }
 
+.content-center .img-2{
+    width: 100%;
+    height: 160px;
+    background-image: url(../img/img-2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}
+
+/* CONTENT RIGHT */
+
 .content-right{
     width: 20%;
     height: 370px;
-    background-color: skyblue;
     margin-top: 20px;
     float: right;
+}
+
+.content-right .img-3{
+    width: 100%;
+    height: 160px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
 }
 
 /* FOOTER */
 
 .intestazione-finale{
-    height: 70px;
-    background-color: purple;
     margin-top: 10px;
 }
+
+h5 .cuore{
+    color: red;
+}
+
 
